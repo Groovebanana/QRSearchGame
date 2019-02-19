@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4a707a"
+
+    tools:context=".CreateGameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText_create_game_name"
+            android:layout_width="2in"
+            android:layout_height="40dp"
+            android:layout_marginTop="0.3in"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_design"
+            android:ems="10"
+            android:hint="Имя"
+            android:textColor="#c2c8c5"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_create_game_description"
+            android:layout_width="2in"
+            android:layout_height="40dp"
+            android:layout_marginTop="0.3in"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_design"
+            android:ems="10"
+            android:hint="Описание"
+            android:textColor="#c2c8c5"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button_createNewGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0.7in"
+            android:background="@drawable/button_design"
+            android:text="Создать" />
+    </LinearLayout>
+</RelativeLayout>

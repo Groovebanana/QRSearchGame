@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4a707a"
+    tools:context=".PlayGameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_playGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Следующая задача:"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_PlayGame_Task"
+            android:layout_width="match_parent"
+            android:layout_height="434dp"
+            android:layout_marginTop="10dp"
+            android:text="В данный момент у вас нет активных задач, просканируйте первый qr код"
+            android:textAlignment="center"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/button_Scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_design"
+            android:text="Сканировать QR код"
+            android:textColor="#c2c8c5"
+            android:textSize="30dp"/>
+    </LinearLayout>
+</RelativeLayout>
